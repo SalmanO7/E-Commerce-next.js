@@ -12,6 +12,7 @@ const CartItem = ({ card }: any) => {
     <div className="flex flex-col  pt-7">
       <div className="w-full min-h-[100px] flex items-center justify-start ">
         <Link href={`/product/${id}`}>
+          
           <Image
             className="w-1/2"
             src={image}
