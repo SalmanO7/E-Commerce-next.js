@@ -22,14 +22,14 @@ const CartItem = ({ card }: any) => {
         </Link>
 
         <div>
-          <div className="flex items-center justify-between gap-6 w-full mb-2">
+          <div className=" flex items-center justify-between gap-6 mb-2">
             <Link
               href={`/product/${id}`}
               className="text-[12px] sm:text-sm md:text-base lg:text-lg font-semibold text-black text-start"
             >
               {title}
             </Link>
-            <div>
+            <div className="flex justify-end">
               <IoMdClose className="text-gray-500 cursor-pointer hover:text-red-500 transition text-xl sm:text-2xl lg:text-3xl" />
             </div>
           </div>
